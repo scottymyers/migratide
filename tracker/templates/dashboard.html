@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard - Migraine Tracker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { background: #e9ecef; }
+        .chart-card { margin-bottom: 20px; }
+        .wave { color: #17a2b8; }
+        .navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .weather-card { position: absolute; top: 20px; right: 20px; width: 250px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'dashboard' %}"><i class="fas fa-chart-line"></i> Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'log' %}"><i class="fas fa-plus"></i> Log New</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'profile' %}"><i class="fas fa-user"></i> Profile</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'subscribe' %}"><i class="fas fa-star"></i> Upgrade</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4 position-relative">
+        {% if latest_weather.date %}
+            <div class="card weather-card shadow">
+                <div class="card-header bg-secondary text-white">Weather on {{ latest_weather.date }}</div>
+                <div class="card-body">
+                    <p><strong>Condition:</strong> {{ latest_weather.description|title }}</p>
+                    <p><strong>Temperature:</strong> {{ latest_weather.temperature|default:"N/A" }} °C</p>
+                    <p><strong>Pressure:</strong> {{ latest_weather.pressure|default:"N/A" }} hPa</p>
+                </div>
+            </div>
+        {% endif %}
+        <a href="{% url 'export_data' %}" class="btn btn-primary mb-3"><i class="fas fa-download"></i> Export Data</a>
+        <h1 class="mb-4"><i class="fas fa-brain wave"></i> Your Migraine Dashboard</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card chart-card">
+                    <div class="card-header bg-primary text-white">Migraine Frequency</div>
+                    <div class="card-body"><canvas id="freqChart"></canvas></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card chart-card">
+                    <div class="card-header bg-warning text-dark">Top Triggers</div>
+                    <div class="card-body"><canvas id="triggerChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card chart-card">
+            <div class="card-header bg-info text-white">Biorhythms (with Migraine Markers)</div>
+            <div class="card-body"><canvas id="bioChart" height="150"></canvas></div>
+        </div>
+
+        <div class="alert alert-info">
+            Today's Biorhythms: Physical {{ current_biorhythms.physical|default:"N/A" }}%,
+            Emotional {{ current_biorhythms.emotional|default:"N/A" }}%,
+            Intellectual {{ current_biorhythms.intellectual|default:"N/A" }}%
+        </div>
+
+        <h3>Recent Migraines</h3>
+        <ul class="list-group mb-4">
+            {% for entry in entries %}
+                <li class="list-group-item {% if entry.severity > 7 %}list-group-item-danger{% elif entry.severity > 4 %}list-group-item-warning{% else %}list-group-item-success{% endif %}">
+                    {{ entry.date }} - Trigger: {{ entry.trigger|default:"None" }} (Severity: {{ entry.severity }})
+                    {% if entry.improved %}<span class="badge bg-success">Improved</span>{% endif %}
+                </li>
+            {% empty %}
+                <li class="list-group-item">No migraines logged yet.</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <script>
+        var freqCtx = document.getElementById('freqChart').getContext('2d');
+        new Chart(freqCtx, {
+            type: 'line',
+            data: {
+                labels: {{ freq_labels|safe|default:"[]" }},
+                datasets: [{
+                    label: 'Migraines per Month',
+                    data: {{ freq_values|safe|default:"[]" }},
+                    borderColor: '#dc3545',
+                    fill: false
+                }]
+            },
+            options: { scales: { y: { beginAtZero: true } } }
+        });
+
+        var triggerCtx = document.getElementById('triggerChart').getContext('2d');
+        var triggerData = {{ top_triggers|safe|default:"[]" }};
+        var triggerLabels = triggerData.map(t => t[0]);
+        var triggerValues = triggerData.map(t => t[1]);
+        new Chart(triggerCtx, {
+            type: 'bar',
+            data: {
+                labels: triggerLabels,
+                datasets: [{
+                    label: 'Trigger Count',
+                    data: triggerValues,
+                    backgroundColor: '#ffc107'
+                }]
+            },
+            options: { scales: { y: { beginAtZero: true } } }
+        });
+
+        var bioCtx = document.getElementById('bioChart').getContext('2d');
+        var bioData = {{ bio_data|safe|default:"[]" }};
+        var labels = bioData.map(d => d.day);
+        var physical = bioData.map(d => d.physical);
+        var emotional = bioData.map(d => d.emotional);
+        var intellectual = bioData.map(d => d.intellectual);
+        var migraines = bioData.map(d => d.migraine ? 100 : null);
+        new Chart(bioCtx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    { label: 'Physical', data: physical, borderColor: '#28a745' },
+                    { label: 'Emotional', data: emotional, borderColor: '#ffc107' },
+                    { label: 'Intellectual', data: intellectual, borderColor: '#007bff' },
+                    { label: 'Migraine Days', data: migraines, borderColor: '#dc3545', type: 'scatter', pointRadius: 5 }
+                ]
+            },
+            options: { scales: { y: { min: -100, max: 100 } } }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
