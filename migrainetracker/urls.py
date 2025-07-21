@@ -1,20 +1,28 @@
+# File: migratide/urls.py
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from django.contrib.auth.views import LogoutView, LoginView
 from tracker import views
-from django.contrib.auth.views import LoginView
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', LoginView.as_view(template_name='registration/login.html'), name='login'),
-    path('register/', views.register, name='register'),
-    path('log/', views.log_migraine, name='log'),
-    path('dashboard/', views.dashboard, name='dashboard'),
-    path('profile/', views.profile, name='profile'),
-    path('export/', views.export_data, name='export_data'),
-    path('subscribe/', views.subscribe, name='subscribe'),
-    path('stripe-webhook/', views.stripe_webhook, name='stripe_webhook'),
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('success/', views.success, name='success'),
-    path('cancel/', views.cancel, name='cancel'),
-    path('select2/', include('django_select2.urls')),
+ path('admin/', admin.site.urls),
+ path('dashboard/', views.dashboard, name='dashboard'),
+ path('log/', views.log_migraine, name='log'),
+ path('profile/', views.profile, name='profile'),
+ path('subscribe/', views.subscribe, name='subscribe'),
+ path('upgrade/', views.upgrade, name='upgrade'),
+ path('export_data/', views.export_data, name='export_data'),
+ path('admin_page/', views.admin_page, name='admin_page'),
+ path('logout/', LogoutView.as_view(next_page='login'), name='logout'),
+ path('register/', views.register, name='register'),
+ path('success/', views.success, name='success'),
+ path('cancel/', views.cancel, name='cancel'),
+ path('stripe_webhook/', views.stripe_webhook, name='stripe_webhook'),
+ path('login/', LoginView.as_view(template_name='registration/login.html'), name='login'),
+ path('', views.dashboard, name='home'), # Add root URL to point to dashboard or a home view
 ]
+
+if settings.DEBUG:
+ urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

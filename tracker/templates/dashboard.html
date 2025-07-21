@@ -1,3 +1,4 @@
+<!-- File: templates/dashboard.html 0.1.2 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.0.1"></script>
     <style>
         body { background: #e9ecef; }
         .chart-card { margin-bottom: 20px; }
@@ -26,14 +28,16 @@
                     <li class="nav-item"><a class="nav-link" href="{% url 'profile' %}"><i class="fas fa-user"></i> Profile</a></li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="{% url 'subscribe' %}"><i class="fas fa-star"></i> Upgrade</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'upgrade' %}"><i class="fas fa-star"></i> Upgrade</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container mt-4 position-relative">
-        {% if latest_weather.date %}
+        {% if weather_error %}
+            <div class="alert alert-warning weather-card shadow">{{ weather_error }}</div>
+        {% elif latest_weather.date %}
             <div class="card weather-card shadow">
                 <div class="card-header bg-secondary text-white">Weather on {{ latest_weather.date }}</div>
                 <div class="card-body">
@@ -42,9 +46,11 @@
                     <p><strong>Pressure:</strong> {{ latest_weather.pressure|default:"N/A" }} hPa</p>
                 </div>
             </div>
+        {% else %}
+            <div class="alert alert-info weather-card shadow">No weather data yet. Set ZIP in Profile.</div>
         {% endif %}
         <a href="{% url 'export_data' %}" class="btn btn-primary mb-3"><i class="fas fa-download"></i> Export Data</a>
-        <h1 class="mb-4"><i class="fas fa-brain wave"></i> Your Migraine Dashboard</h1>
+        <h1 class="mb-4"><i class="fas fa-brain wave"></i>  Migratide  </h1>
 
         <div class="row">
             <div class="col-md-6">
@@ -123,7 +129,7 @@
         var physical = bioData.map(d => d.physical);
         var emotional = bioData.map(d => d.emotional);
         var intellectual = bioData.map(d => d.intellectual);
-        var migraines = bioData.map(d => d.migraine ? 100 : null);
+        var migraineSeverities = bioData.map(d => d.migraine_severity);
         new Chart(bioCtx, {
             type: 'line',
             data: {
@@ -132,10 +138,28 @@
                     { label: 'Physical', data: physical, borderColor: '#28a745' },
                     { label: 'Emotional', data: emotional, borderColor: '#ffc107' },
                     { label: 'Intellectual', data: intellectual, borderColor: '#007bff' },
-                    { label: 'Migraine Days', data: migraines, borderColor: '#dc3545', type: 'scatter', pointRadius: 5 }
+                    { label: 'Migraine Days', data: migraineSeverities, borderColor: '#dc3545', type: 'scatter', pointRadius: 5, pointBackgroundColor: '#dc3545' }
                 ]
             },
-            options: { scales: { y: { min: -100, max: 100 } } }
+            options: {
+                scales: { y: { min: -100, max: 100 } },
+                plugins: {
+                    annotation: {
+                        annotations: bioData.map((d, i) => {
+                            if (d.migraine_severity) {
+                                return {
+                                    type: 'label',
+                                    xValue: i,
+                                    yValue: d.migraine_severity,
+                                    content: (d.migraine_severity / 10).toFixed(0),
+                                    color: 'red',
+                                    font: { size: 12 }
+                                };
+                            }
+                        }).filter(a => a)
+                    }
+                }
+            }
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

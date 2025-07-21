@@ -1,3 +1,4 @@
+# File: tracker/models.py 0.1.2
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
@@ -12,8 +13,12 @@ TRIGGER_CHOICES = [
     ('alcohol', 'Alcohol'),
     ('dehydration', 'Dehydration'),
     ('hormones', 'Hormonal Changes'),
-    ('food', 'Certain Foods'),
+    ('food', 'Certain Foods (e.g., aged cheese, chocolate, MSG)'),
     ('exercise', 'Overexertion'),
+    ('skipping_meals', 'Skipping Meals or Hunger'),
+    ('strong_smells', 'Strong Smells (e.g., perfume, smoke)'),
+    ('bright_lights', 'Bright Lights or Loud Noises'),
+    ('smoking', 'Smoking'),
     ('unknown', 'Unknown'),
 ]
 
@@ -22,6 +27,10 @@ WORKOUT_INTENSITY_CHOICES = [
     ('moderate', 'Moderate'),
     ('high', 'High'),
 ]
+
+ALCOHOL_CHOICES = [('none', 'None'), ('occasional', 'Occasional'), ('regular', 'Regular')]
+CAFFEINE_CHOICES = [('low', 'Low'), ('moderate', 'Moderate'), ('high', 'High')]
+HYDRATION_CHOICES = [('good', 'Good'), ('poor', 'Poor')]
 
 class Medication(models.Model):
     name = models.CharField(max_length=100, unique=True)
@@ -38,6 +47,19 @@ class UserProfile(models.Model):
     birthdate = models.DateField(null=True, blank=True)
     drinks_from_plastic = models.BooleanField(default=False)
     zip_code = models.CharField(max_length=10, blank=True)  # New field
+    last_weather_fetch = models.DateTimeField(null=True, blank=True)
+    cached_weather_pressure = models.FloatField(null=True, blank=True)
+    cached_weather_temperature = models.FloatField(null=True, blank=True)
+    cached_weather_description = models.CharField(max_length=100, blank=True)
+    regular_exercise = models.BooleanField(default=False)
+    smoking = models.BooleanField(default=False)
+    alcohol_frequency = models.CharField(max_length=20, choices=ALCOHOL_CHOICES, default='none')
+    caffeine_intake = models.CharField(max_length=20, choices=CAFFEINE_CHOICES, default='low')
+    hydration_level = models.CharField(max_length=20, choices=HYDRATION_CHOICES, default='good')
+    consistent_sleep = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"Profile for {self.user.username}"
 
     def calculate_biorhythms(self, target_date=None):
         if not self.birthdate:

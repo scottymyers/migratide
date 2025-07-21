@@ -1,69 +1,56 @@
+<!-- File: templates/profile.html 0.1.2 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Profile - Migraine Tracker</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        body { background: #f8f9fa; }
-        .card { border-color: #dc3545; }
-        .btn-primary { background: #007bff; }
-        .form-control, .form-select { border-radius: 5px; }
-        .navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    </style>
+    <!-- Add Bootstrap, etc. as in dashboard -->
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="{% url 'dashboard' %}"><i class="fas fa-chart-line"></i> Dashboard</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="{% url 'log' %}"><i class="fas fa-plus"></i> Log New</a></li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="{% url 'subscribe' %}"><i class="fas fa-star"></i> Upgrade</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container mt-4">
-        <h1 class="mb-4"><i class="fas fa-user"></i> Your Profile</h1>
+    <!-- Navbar similar to dashboard -->
+    <div class="container">
+        <h1>Your Profile</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ profile_form.as_p }}
+            <button type="submit">Save Profile</button>
+        </form>
 
-        <div class="card shadow mb-4">
-            <div class="card-header bg-primary text-white">Personal Information</div>
-            <div class="card-body">
-                {% if profile_form.errors %}
-                    <div class="alert alert-danger">
-                        Please correct the errors below:
-                        {{ profile_form.errors }}
-                    </div>
-                {% endif %}
-                <form method="post">
-                    {% csrf_token %}
-                    {{ profile_form.as_p }}
-                    <p class="text-muted">Note: A valid US zip code (e.g., 90210) is required for weather data in migraine logs.</p>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save Profile</button>
-                </form>
-            </div>
-        </div>
+        <h2>Supplements and Medications</h2>
+        <ul>
+            {% for supp in supplements %}
+                <li>Supplement: {{ supp.name }} ({{ supp.dosage }}) - {{ supp.timing }}</li>
+            {% empty %}
+                <li>No supplements.</li>
+            {% endfor %}
+            {% for med in medications %}
+                <li>Medication: {{ med.name }} ({{ med.dosage }}) - {{ med.timing }}</li>
+            {% empty %}
+                <li>No medications.</li>
+            {% endfor %}
+        </ul>
 
-        <div class="card shadow mb-4">
-            <div class="card-header bg-warning text-dark">Supplements</div>
-            <div class="card-body">
-                {% if supplement_form.errors %}
-                    <div class="alert alert-danger">
-                        {{ supplement_form.errors }}
-                    </div>
-                {% endif %}
-                <form method="post">
-                    {% csrf_token %}
-                    {{ supplement_form.as_p }}
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> Add Supplement</button>
-                </form>
-                <h5 class="mt-4">Current Supplements</h5>
-                <ul class="list-group">
-                    {% for supplement
+        <h3>Add Supplement</h3>
+        <form method="post" prefix="supplement">
+            {% csrf_token %}
+            {{ supplement_form.as_p }}
+            <button type="submit">Add</button>
+        </form>
+
+        <h3>Add Medication</h3>
+        <form method="post" prefix="medication">
+            {% csrf_token %}
+            {{ medication_form.as_p }}
+            <button type="submit">Add</button>
+        </form>
+
+        <h2>Lifestyle Factors</h2>
+        <p>Drinks from Plastic: {{ profile.drinks_from_plastic }}</p>
+        <p>Regular Exercise: {{ profile.regular_exercise }}</p>
+        <p>Smoking: {{ profile.smoking }}</p>
+        <p>Alcohol Frequency: {{ profile.alcohol_frequency|title }}</p>
+        <p>Caffeine Intake: {{ profile.caffeine_intake|title }}</p>
+        <p>Hydration Level: {{ profile.hydration_level|title }}</p>
+        <p>Consistent Sleep: {{ profile.consistent_sleep }}</p>
+    </div>
+</body>
+</html>
