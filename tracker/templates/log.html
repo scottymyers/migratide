@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log Migraine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+    <style>
+        body { background: #f8f9fa; }
+        .card { border-color: #dc3545; }
+        .btn-primary { background: #007bff; }
+        .form-select, .form-control { border-radius: 5px; }
+        .select2-container { width: 100% !important; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'dashboard' %}"><i class="fas fa-chart-line"></i> Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'profile' %}"><i class="fas fa-user"></i> Profile</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'subscribe' %}"><i class="fas fa-star"></i> Upgrade</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="card shadow">
+            <div class="card-header bg-danger text-white"><i class="fas fa-exclamation-triangle"></i> Log Your Migraine</div>
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="{{ form.date.id_for_label }}" class="form-label">Date</label>
+                        {{ form.date }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.trigger.id_for_label }}" class="form-label">Trigger</label>
+                        {{ form.trigger }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.medications.id_for_label }}" class="form-label">Medications</label>
+                        {{ form.medications }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.duration.id_for_label }}" class="form-label">Duration (e.g., 1:30:00)</label>
+                        {{ form.duration }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.severity.id_for_label }}" class="form-label">Severity (1-10)</label>
+                        {{ form.severity }}
+                    </div>
+                    <div class="mb-3 form-check">
+                        {{ form.improved }}
+                        <label for="{{ form.improved.id_for_label }}" class="form-check-label">Improved?</label>
+                    </div>
+                    <h5>Additional Information</h5>
+                    <div class="mb-3">
+                        <label for="{{ form.workout_time.id_for_label }}" class="form-label">Workout Time (e.g., 0:45:00)</label>
+                        {{ form.workout_time }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.workout_intensity.id_for_label }}" class="form-label">Workout Intensity</label>
+                        {{ form.workout_intensity }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.sleep_time.id_for_label }}" class="form-label">Sleep Time (e.g., 7:00:00)</label>
+                        {{ form.sleep_time }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.screen_time.id_for_label }}" class="form-label">Screen Time (e.g., 2:00:00)</label>
+                        {{ form.screen_time }}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.stress_level.id_for_label }}" class="form-label">Stress Level (1-10)</label>
+                        {{ form.stress_level }}
+                    </div>
+                    {% if not is_paid %}
+                        <p class="text-muted">Some advanced features may require a subscription.</p>
+                    {% endif %}
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save Entry</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#{{ form.medications.id_for_label }}').select2({
+                tags: true,
+                placeholder: 'Select or add medications',
+                allowClear: true
+            });
+        });
+    </script>
+</body>
+</html>

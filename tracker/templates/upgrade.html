@@ -1,0 +1,15 @@
+<!-- File: templates/upgrade.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Upgrade - Migraine Tracker</title>
+</head>
+<body>
+    <h1>Upgrade Account</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label><input type="checkbox" name="upgrade_checkbox"> I would like to upgrade my account for free (Beta)</label>
+        <button type="submit">Upgrade</button>
+    </form>
+</body>
+</html>

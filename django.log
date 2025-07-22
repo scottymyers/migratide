@@ -1,0 +1,1721 @@
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /xmlrpc.php
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /blog/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /web/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wordpress/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /website/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /news/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /2020/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /2019/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /shop/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp1/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /test/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp2/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /site/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /cms/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /sito/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /xmlrpc.php
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /blog/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /web/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wordpress/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /website/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /news/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /2018/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /2019/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /shop/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp1/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /test/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /media/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /wp2/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /site/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /cms/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /sito/wp-includes/wlwmanifest.xml
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 141, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 730, in validate_host
+    return any(
+        pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+    )
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/http/request.py", line 731, in <genexpr>
+    pattern == "*" or is_same_domain(host, pattern) for pattern in allowed_hosts
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/utils/http.py", line 235, in is_same_domain
+    pattern = pattern.lower()
+              ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'lower'
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+Not Found: /favicon.ico
+Not Found: /accounts/login/
+Not Found: /favicon.ico
+Not Found: /favicon.png
+Not Found: /favicon.ico
+Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ragequit/Migratide/tracker/views.py", line 226, in register
+    return render(request, 'register.html', {'form': form})
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ragequit/.virtualenvs/migrainetracker-py3.13/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+Not Found: /accounts/profile/
+Not Found: /.git/config
+Not Found: /favicon.ico
+Not Found: /favicon.ico

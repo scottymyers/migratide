@@ -1,0 +1,82 @@
+<!-- File: templates/profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Migraine Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'home' %}">Migraine Tracker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'dashboard' %}">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'log' %}">Log Migraine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'profile' %}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h1>Your Profile</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ profile_form.as_p }}
+            <button type="submit" class="btn btn-primary">Save Profile</button>
+        </form>
+
+        <h2>Supplements and Medications</h2>
+        <ul class="list-group">
+            {% for supp in supplements %}
+                <li class="list-group-item">Supplement: {{ supp.name }} ({{ supp.dosage }}) - {{ supp.timing }}</li>
+            {% empty %}
+                <li class="list-group-item">No supplements.</li>
+            {% endfor %}
+            {% for med in medications %}
+                <li class="list-group-item">Medication: {{ med.name }} ({{ med.dosage }}) - {{ med.timing }}</li>
+            {% empty %}
+                <li class="list-group-item">No medications.</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Add Supplement</h3>
+        <form method="post" prefix="supplement">
+            {% csrf_token %}
+            {{ supplement_form.as_p }}
+            <button type="submit" class="btn btn-success">Add</button>
+        </form>
+
+        <h3>Add Medication</h3>
+        <form method="post" prefix="medication">
+            {% csrf_token %}
+            {{ medication_form.as_p }}
+            <button type="submit" class="btn btn-success">Add</button>
+        </form>
+
+        <h2>Lifestyle Factors</h2>
+        <p>Drinks from Plastic: {{ profile.drinks_from_plastic }}</p>
+        <p>Regular Exercise: {{ profile.regular_exercise }}</p>
+        <p>Smoking: {{ profile.smoking }}</p>
+        <p>Alcohol Frequency: {{ profile.alcohol_frequency|title }}</p>
+        <p>Caffeine Intake: {{ profile.caffeine_intake|title }}</p>
+        <p>Hydration Level: {{ profile.hydration_level|title }}</p>
+        <p>Consistent Sleep: {{ profile.consistent_sleep }}</p>
+    </div>
+</body>
+</html>

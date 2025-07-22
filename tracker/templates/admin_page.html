@@ -1,0 +1,90 @@
+<!-- File: templates/admin_page.html 0.1.2  -->
+<!DOCTYPE html>
+<html>
+<head><title>Admin Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Add other scripts/styles as needed -->
+</head>
+<body>
+<h1>Manage Users</h1>
+<table border="1">
+    <tr><th>Username</th><th>Paid</th><th>Actions</th></tr>
+    {% for user in users %}
+        <tr>
+            <td>{{ user.username }}</td>
+            <td>{{ user.userprofile.is_paid }}</td>
+            <td>
+                <form method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="user_id" value="{{ user.id }}">
+                    <button type="submit" name="action" value="toggle_paid">Toggle Paid</button>
+                    <button type="submit" name="action" value="delete" onclick="return confirm('Delete?');">Delete</button>
+                </form>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+
+<h1>Global Analytics</h1>
+<div class="card"><canvas id="globalFreqChart"></canvas></div>
+<div class="card"><canvas id="globalTriggerChart"></canvas></div>
+<div class="card"><canvas id="globalBioChart" height="150"></canvas></div>
+
+<script>
+    // Adapt from dashboard.js
+    var freqCtx = document.getElementById('globalFreqChart').getContext('2d');
+    new Chart(freqCtx, {
+        type: 'line',
+        data: {
+            labels: {{ freq_labels|safe|default:"[]" }},
+            datasets: [{
+                label: 'Migraines per Month (Global)',
+                data: {{ freq_values|safe|default:"[]" }},
+                borderColor: '#dc3545',
+                fill: false
+            }]
+        },
+        options: { scales: { y: { beginAtZero: true } } }
+    });
+
+    // Similar for triggerChart and bioChart using {{ top_triggers|safe }}, {{ bio_data|safe }}
+    var triggerCtx = document.getElementById('globalTriggerChart').getContext('2d');
+    var triggerData = {{ top_triggers|safe|default:"[]" }};
+    var triggerLabels = triggerData.map(t => t[0]);
+    var triggerValues = triggerData.map(t => t[1]);
+    new Chart(triggerCtx, {
+        type: 'bar',
+        data: {
+            labels: triggerLabels,
+            datasets: [{
+                label: 'Trigger Count (Global)',
+                data: triggerValues,
+                backgroundColor: '#ffc107'
+            }]
+        },
+        options: { scales: { y: { beginAtZero: true } } }
+    });
+
+    var bioCtx = document.getElementById('globalBioChart').getContext('2d');
+    var bioData = {{ bio_data|safe|default:"[]" }};
+    var labels = bioData.map(d => d.day);
+    var physical = bioData.map(d => d.physical);
+    var emotional = bioData.map(d => d.emotional);
+    var intellectual = bioData.map(d => d.intellectual);
+    var migraines = bioData.map(d => d.migraine ? 100 : null);
+    new Chart(bioCtx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                { label: 'Physical (Avg)', data: physical, borderColor: '#28a745' },
+                { label: 'Emotional (Avg)', data: emotional, borderColor: '#ffc107' },
+                { label: 'Intellectual (Avg)', data: intellectual, borderColor: '#007bff' },
+                { label: 'Migraine Days (Global)', data: migraines, borderColor: '#dc3545', type: 'scatter', pointRadius: 5 }
+            ]
+        },
+        options: { scales: { y: { min: -100, max: 100 } } }
+    });
+</script>
+</body>
+</html>
