@@ -100,10 +100,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # API Keys and Services
-OPENWEATHERMAP_API_KEY = config('OPENWEATHERMAP_API_KEY', default='f555e075db9e374b16ab7d8d7b19d38e')
-STRIPE_PUBLIC_KEY = config('STRIPE_PUBLIC_KEY', default='pk_test_51RnQSHP1TK6ovm5ttVjiWJpSrMNr29PiiTuMy1a1PqRRF4G8m27hZNb7L6GWwzK7nJDfN0Mup7qp5eBiOBouqJ0H00ovUnrmLR')
-STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY', default='sk_test_51RnQSHP1TK6ovm5tQvmILAZys5lvCuW6OResq9H1C2qREWSmHtbpWepLuks1Wxn7zjjqL5PbhjQMTP3xwAr7Jb1c00Tu7gLh7v')
-STRIPE_WEBHOOK_SECRET = config('STRIPE_WEBHOOK_SECRET', default='whsec_03br1JkAGSU2lmUjgTIGq6JJt0otIfsB')
+OPENWEATHERMAP_API_KEY = config('OPENWEATHERMAP_API_KEY', default='x')
+STRIPE_PUBLIC_KEY = config('STRIPE_PUBLIC_KEY', default='x')
+STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY', default='x')
+STRIPE_WEBHOOK_SECRET = config('STRIPE_WEBHOOK_SECRET', default='x')
 
 # Logging configuration to reduce noise and handle errors
 LOGGING = {
